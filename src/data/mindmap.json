@@ -1,0 +1,37 @@
+{
+  "id": "root",
+  "title": "Vitamins in Human Body",
+  "summary": "Essential micronutrients required for metabolism and immunity.",
+  "children": [
+    {
+      "id": "classification",
+      "title": "Vitamin Classification",
+      "summary": "Based on solubility",
+      "children": [
+        {
+          "id": "fat",
+          "title": "Fat-Soluble Vitamins",
+          "summary": "Stored in body fat",
+          "children": [
+            { "id": "A", "title": "Vitamin A", "summary": "Vision & immunity" },
+            { "id": "D", "title": "Vitamin D", "summary": "Bone health" },
+            { "id": "E", "title": "Vitamin E", "summary": "Antioxidant" },
+            { "id": "K", "title": "Vitamin K", "summary": "Blood clotting" }
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Water-Soluble Vitamins",
+          "summary": "Excreted easily",
+          "children": [
+            { "id": "B", "title": "Vitamin B", "summary": "Energy" },
+            { "id": "C", "title": "Vitamin C", "summary": "Immunity" }
+          ]
+        }
+      ]
+    },
+    { "id": "roles", "title": "Key Bodily Roles", "summary": "Vital functions" },
+    { "id": "sources", "title": "Dietary Sources", "summary": "Food intake" },
+    { "id": "health", "title": "Health Impact & Balance", "summary": "Deficiency & excess" }
+  ]
+}
